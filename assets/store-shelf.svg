@@ -1,0 +1,31 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dfeaf6"/>
+      <stop offset="100%" stop-color="#d3dfe9"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7e8e9d"/>
+      <stop offset="100%" stop-color="#586a78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="120" fill="#edf5ff" opacity="0.5"/>
+  <g opacity="0.7">
+    <path d="M0 226h1200v16H0z" fill="#bfcdd8"/>
+    <path d="M0 458h1200v18H0z" fill="#b7c7d3"/>
+  </g>
+  <g>
+    <rect x="0" y="230" width="1200" height="190" fill="url(#shelf)"/>
+    <rect x="0" y="465" width="1200" height="170" fill="#73869a" opacity="0.88"/>
+    <rect x="0" y="210" width="1200" height="12" fill="#e3ecf3" opacity="0.85"/>
+    <rect x="0" y="450" width="1200" height="12" fill="#e2edf6" opacity="0.72"/>
+  </g>
+  <g opacity="0.6">
+    <circle cx="110" cy="90" r="34" fill="#fff8d6"/>
+    <circle cx="334" cy="90" r="26" fill="#fff8d6"/>
+    <circle cx="610" cy="90" r="30" fill="#fff8d6"/>
+    <circle cx="920" cy="90" r="28" fill="#fff8d6"/>
+    <circle cx="1090" cy="90" r="22" fill="#fff8d6"/>
+  </g>
+</svg>

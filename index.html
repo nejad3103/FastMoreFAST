@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마트 전쟁: 마감 세일 특공대</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="game-container">
+    <header>
+      <div>
+        <h2>마트 전쟁</h2>
+        <p>제한시간: <span id="time-display">30</span>초</p>
+      </div>
+      <div id="receipt">
+        <strong>구매 목록:</strong>
+        <ul id="target-list"></ul>
+      </div>
+    </header>
+
+    <div id="shelf"></div>
+
+    <div id="battle-overlay">
+        <div id="battle-msg">손이 쏟아진다!</div>
+        <div id="battle-grid">
+          <div class="battle-direction up" data-dir="up"><span class="dir-label">위</span></div>
+          <div class="battle-direction left" data-dir="left"><span class="dir-label">왼쪽</span></div>
+          <div id="player-unit">
+            <div id="player-product">중앙</div>
+            <div id="player-hand"></div>
+          </div>
+          <div class="battle-direction right" data-dir="right"><span class="dir-label">오른쪽</span></div>
+          <div class="battle-direction down" data-dir="down"><span class="dir-label">아래</span></div>
+        </div>
+        <div id="instruction">위/아래/좌/우 중 안전한 방향으로 피하세요!</div>
+      </div>
+
+    <div id="result-screen">
+      <h1 id="result-title">게임 종료</h1>
+      <p id="result-desc"></p>
+      <button id="restart-btn">다시 시작</button>
+    </div>
+  </div>
+
+  <script src="js/battle.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
